@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>U:\GitHubProject\kynashop-be\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2022-12-08T21:17:51.9697776Z;True|2022-12-09T04:04:30.3194504+07:00;True|2022-12-09T04:03:32.0835314+07:00;True|2022-12-09T03:58:36.8716043+07:00;True|2022-12-09T03:49:43.0540599+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

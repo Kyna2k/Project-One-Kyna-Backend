@@ -25,6 +25,8 @@ namespace KynaShop.Controllers
             }
             catch (Exception ex)
             {
+                Ok(ex.Message);
+
                 throw;
             }
 
@@ -41,6 +43,7 @@ namespace KynaShop.Controllers
             }
             catch (Exception ex)
             {
+                Ok(ex.Message);
                 throw;
             }
         }

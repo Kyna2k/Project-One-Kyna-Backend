@@ -6,6 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddControllers().AddJsonOptions(x =>
                 x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles); 
 builder.Services.AddDbContext<KynaShopContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("KynaShop")));

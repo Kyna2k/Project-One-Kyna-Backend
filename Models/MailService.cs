@@ -7,10 +7,11 @@ namespace KynaShop.Models
 {
     public class MailService : IMailService
     {
+        private readonly Microsoft.AspNetCore.Hosting.IHostingEnvironment _hostingEnvironment;
         private readonly MailSettings _mailSettings;
-        public MailService(IOptions<MailSettings> mailSettings)
+        public MailService(Microsoft.AspNetCore.Hosting.IHostingEnvironment _hostingEnvironment)
         {
-            _mailSettings = mailSettings.Value;
+            this._hostingEnvironment = _hostingEnvironment;
         }
 
         public async Task SendMailAsync(MailRequest mailRequest)
@@ -48,8 +49,8 @@ namespace KynaShop.Models
         //send mail with template
         public async Task SendMailWithTemplateAsync(MailRequest mailRequest)
         {
-            string FilePath = Directory.GetCurrentDirectory() + "/Templates/huhu.html";
-            StreamReader str = new StreamReader(FilePath);
+            string path = Path.Combine(_hostingEnvironment.WebRootPath, "Templates", "huhu.html");
+            StreamReader str = new StreamReader(path);
             string MailText = str.ReadToEnd();
             str.Close();
             MailText = MailText.Replace("[HCMSeries_FullName]", mailRequest.FullName).Replace("[NOIDUNG]", mailRequest.Body);

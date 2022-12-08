@@ -33,10 +33,10 @@
           }
         }
       },
-      "MailKit/3.4.3": {
+      "MailKit/3.4.1": {
         "type": "package",
         "dependencies": {
-          "MimeKit": "3.4.3"
+          "MimeKit": "3.4.1"
         },
         "compile": {
           "lib/net6.0/MailKit.dll": {
@@ -1446,7 +1446,7 @@
           }
         }
       },
-      "Microsoft.NETCore.Platforms/1.1.1": {
+      "Microsoft.NETCore.Platforms/3.1.0": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -1698,13 +1698,11 @@
           }
         }
       },
-      "MimeKit/3.4.3": {
+      "MimeKit/3.4.1": {
         "type": "package",
         "dependencies": {
           "Portable.BouncyCastle": "1.9.0",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
-          "System.Security.Cryptography.Pkcs": "6.0.0",
-          "System.Text.Encoding.CodePages": "6.0.0"
+          "System.Security.Cryptography.Pkcs": "6.0.0"
         },
         "compile": {
           "lib/net6.0/MimeKit.dll": {
@@ -3386,26 +3384,23 @@
           }
         }
       },
-      "System.Text.Encoding.CodePages/6.0.0": {
+      "System.Text.Encoding.CodePages/4.7.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+          "Microsoft.NETCore.Platforms": "3.1.0"
         },
         "compile": {
-          "lib/net6.0/System.Text.Encoding.CodePages.dll": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/System.Text.Encoding.CodePages.dll": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
             "related": ".xml"
           }
         },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        },
         "runtimeTargets": {
-          "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.dll": {
+          "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -3638,10 +3633,10 @@
         "logo.png"
       ]
     },
-    "MailKit/3.4.3": {
-      "sha512": "Iewef8mcE1B1LrVudxQjQ0LcriPPeTbxmWMoHQzFS+P6TpEY2eVDbdKdB0Qnbmqr/5w7WfK2mNWuoSX9pI470g==",
+    "MailKit/3.4.1": {
+      "sha512": "XsrxxJDNb9KOtCHjXOlQjUGMKocZ5+DtKIH7cCoc6IRd7rZmfjDof0ITK16dAJhnTYcCvPa90fpYa6/4QkvmIw==",
       "type": "package",
-      "path": "mailkit/3.4.3",
+      "path": "mailkit/3.4.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3664,7 +3659,7 @@
         "lib/netstandard2.1/MailKit.dll",
         "lib/netstandard2.1/MailKit.pdb",
         "lib/netstandard2.1/MailKit.xml",
-        "mailkit.3.4.3.nupkg.sha512",
+        "mailkit.3.4.1.nupkg.sha512",
         "mailkit.nuspec"
       ]
     },
@@ -5184,19 +5179,21 @@
         "notices/THIRDPARTYNOTICES.txt"
       ]
     },
-    "Microsoft.NETCore.Platforms/1.1.1": {
-      "sha512": "TMBuzAHpTenGbGgk0SMTwyEkyijY/Eae4ZGsFNYJvAr/LDn1ku3Etp3FPxChmDp5HHF3kzJuoaa08N0xjqAJfQ==",
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
       "type": "package",
-      "path": "microsoft.netcore.platforms/1.1.1",
+      "path": "microsoft.netcore.platforms/3.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.1.1.1.nupkg.sha512",
+        "microsoft.netcore.platforms.3.1.0.nupkg.sha512",
         "microsoft.netcore.platforms.nuspec",
-        "runtime.json"
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Microsoft.NETCore.Targets/1.1.3": {
@@ -5903,10 +5900,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "MimeKit/3.4.3": {
-      "sha512": "7TSAcziEwk0bGWODpFTQASghXfYNBBa5VdM8KO4s5SBp5LYgIVXcQsdLBpPQ2XhZW74wfaX8RBUMs1GTMlLJcA==",
+    "MimeKit/3.4.1": {
+      "sha512": "0UmjauTJDukShQlwmClY0i5iRz1zwVxAMvM2VoJ5rM0FUSNQC34OZJCKMTAGEJAWYAsTh5hXZIufnUbbm/3jkQ==",
       "type": "package",
-      "path": "mimekit/3.4.3",
+      "path": "mimekit/3.4.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5929,7 +5926,7 @@
         "lib/netstandard2.1/MimeKit.dll",
         "lib/netstandard2.1/MimeKit.pdb",
         "lib/netstandard2.1/MimeKit.xml",
-        "mimekit.3.4.3.nupkg.sha512",
+        "mimekit.3.4.1.nupkg.sha512",
         "mimekit.nuspec"
       ]
     },
@@ -9463,43 +9460,44 @@
         "system.text.encoding.nuspec"
       ]
     },
-    "System.Text.Encoding.CodePages/6.0.0": {
-      "sha512": "ZFCILZuOvtKPauZ/j/swhvw68ZRi9ATCfvGbk1QfydmcXBkIWecWKn/250UH7rahZ5OoDBaiAudJtPvLwzw85A==",
+    "System.Text.Encoding.CodePages/4.7.0": {
+      "sha512": "aeu4FlaUTemuT1qOd1MyU4T516QR4Fy+9yDbwWMPHOHy7U8FD6SgTzdZFO7gHcfAPHtECqInbwklVvUK4RHcNg==",
       "type": "package",
-      "path": "system.text.encoding.codepages/6.0.0",
+      "path": "system.text.encoding.codepages/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/netcoreapp2.0/System.Text.Encoding.CodePages.targets",
-        "buildTransitive/netcoreapp3.1/_._",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
+        "lib/net46/System.Text.Encoding.CodePages.dll",
         "lib/net461/System.Text.Encoding.CodePages.dll",
         "lib/net461/System.Text.Encoding.CodePages.xml",
-        "lib/net6.0/System.Text.Encoding.CodePages.dll",
-        "lib/net6.0/System.Text.Encoding.CodePages.xml",
-        "lib/netcoreapp3.1/System.Text.Encoding.CodePages.dll",
-        "lib/netcoreapp3.1/System.Text.Encoding.CodePages.xml",
+        "lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
         "lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
         "lib/netstandard2.0/System.Text.Encoding.CodePages.xml",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
         "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll",
         "runtimes/win/lib/net461/System.Text.Encoding.CodePages.xml",
-        "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.dll",
-        "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.xml",
-        "runtimes/win/lib/netcoreapp3.1/System.Text.Encoding.CodePages.dll",
-        "runtimes/win/lib/netcoreapp3.1/System.Text.Encoding.CodePages.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.xml",
+        "runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
         "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
         "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.xml",
-        "system.text.encoding.codepages.6.0.0.nupkg.sha512",
+        "system.text.encoding.codepages.4.7.0.nupkg.sha512",
         "system.text.encoding.codepages.nuspec",
-        "useSharedDesignerContext.txt"
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Text.Encoding.Extensions/4.3.0": {
@@ -10118,12 +10116,12 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "CloudinaryDotNet >= 1.20.0",
-      "MailKit >= 3.4.3",
+      "MailKit >= 3.4.1",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.11",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.10",
-      "MimeKit >= 3.4.3"
+      "MimeKit >= 3.4.1"
     ]
   },
   "packageFolders": {
@@ -10171,7 +10169,7 @@
           },
           "MailKit": {
             "target": "Package",
-            "version": "[3.4.3, )"
+            "version": "[3.4.1, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -10195,7 +10193,7 @@
           },
           "MimeKit": {
             "target": "Package",
-            "version": "[3.4.3, )"
+            "version": "[3.4.1, )"
           }
         },
         "imports": [

@@ -52,7 +52,7 @@ namespace KynaShop.Models
             StreamReader str = new StreamReader(FilePath);
             string MailText = str.ReadToEnd();
             str.Close();
-            MailText = MailText.Replace("[HCMSeries_FullName]", mailRequest.FullName).Replace("[email]", mailRequest.ToEmail);
+            MailText = MailText.Replace("[HCMSeries_FullName]", mailRequest.FullName).Replace("[NOIDUNG]", mailRequest.Body);
             var email = new MimeMessage();
             email.Sender = MailboxAddress.Parse("yuhgiabao1809@gmail.com");
             email.To.Add(MailboxAddress.Parse(mailRequest.ToEmail));

@@ -1,6 +1,7 @@
 ﻿using KynaShop.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Org.BouncyCastle.Asn1.Ocsp;
 
 namespace KynaShop.Controllers
 {
@@ -9,9 +10,11 @@ namespace KynaShop.Controllers
     public class ApiNhanVien : Controller
     {
         private readonly KynaShopContext dpHelper;
-        public ApiNhanVien(KynaShopContext dpHelper)
+        private readonly IMailService mailService;
+        public ApiNhanVien(KynaShopContext dpHelper, IMailService mailService)
         {
             this.dpHelper = dpHelper;
+            this.mailService = mailService;
         }
         [HttpGet]
         [Route("login_nhanvien")]
@@ -80,7 +83,7 @@ namespace KynaShop.Controllers
         }
         [HttpPost]
         [Route("updateHoaDonXuLy")]
-        public IActionResult updateHoaDonXuLy(XuLyHoaDonModel xuLy)
+        public async Task<IActionResult> updateHoaDonXuLy(XuLyHoaDonModel xuLy)
         {
             HoaDon hoaDon = dpHelper.HoaDons.SingleOrDefault(p=>p.MaHoaDon== xuLy.MaHoaDon);
             if(hoaDon != null)
@@ -88,6 +91,26 @@ namespace KynaShop.Controllers
                 hoaDon.TrangThai = xuLy.TrangThai;
                 dpHelper.Update(hoaDon);
                 var resul = dpHelper.SaveChanges();
+                if(resul > 0)
+                {
+                    KhachHang kh = dpHelper.KhachHangs.SingleOrDefault(p => p.MaKhachHang == hoaDon.MaHoaDon);
+                    if(kh != null)
+                    {
+                        MailRequest mailRequest = new MailRequest();
+                        mailRequest.ToEmail = kh.Email;
+                        mailRequest.FullName = kh.TenKhachHang;
+                        switch(xuLy.TrangThai)
+                        {
+                            case 2:
+                                mailRequest.Subject = "Kynashop Thông báo đã xác đơn hàng";
+                                mailRequest.Body ="Mã hóa đơn của quý khách là "+ hoaDon.MaHoaDon + ". Vui lòng giữ máy bên mình, sẽ sớm có nhân viên liên hệ với quý khách";
+                                break;
+
+                        }
+                        await mailService.SendMailWithTemplateAsync(mailRequest);
+
+                    }
+                }
                 return Ok(resul);
             }
             return BadRequest();
@@ -112,6 +135,5 @@ namespace KynaShop.Controllers
             var result = dpHelper.SaveChanges();
             return Ok(result);
         }
-
     }
 }

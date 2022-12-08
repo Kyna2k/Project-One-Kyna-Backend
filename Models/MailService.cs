@@ -40,7 +40,7 @@ namespace KynaShop.Models
             email.Body = builder.ToMessageBody();
             using SmtpClient smtp = new SmtpClient();
             smtp.Connect("smtp.gmail.com", 587, SecureSocketOptions.StartTls);
-            smtp.Authenticate("yuhgiabao1809", "huy348148");
+            smtp.Authenticate("yuhgiabao1809@gmail.com", "mtylmywyaibdcbda");
             await smtp.SendAsync(email);
             smtp.Disconnect(true);
         }
@@ -54,15 +54,15 @@ namespace KynaShop.Models
             str.Close();
             MailText = MailText.Replace("[HCMSeries_FullName]", mailRequest.FullName).Replace("[email]", mailRequest.ToEmail);
             var email = new MimeMessage();
-            email.Sender = MailboxAddress.Parse(_mailSettings.Mail);
+            email.Sender = MailboxAddress.Parse("yuhgiabao1809@gmail.com");
             email.To.Add(MailboxAddress.Parse(mailRequest.ToEmail));
             email.Subject = $"Chúc mừng bạn {mailRequest.FullName} đã đăng ký tài khoản HCMSeries thành công";
             var builder = new BodyBuilder();
             builder.HtmlBody = MailText;
             email.Body = builder.ToMessageBody();
             using var smtp = new SmtpClient();
-            smtp.Connect(_mailSettings.Host, _mailSettings.Port, SecureSocketOptions.StartTls);
-            smtp.Authenticate(_mailSettings.Mail, _mailSettings.Password);
+            smtp.Connect("smtp.gmail.com", 587, SecureSocketOptions.StartTls);
+            smtp.Authenticate("yuhgiabao1809@gmail.com", "mtylmywyaibdcbda");
             await smtp.SendAsync(email);
             smtp.Disconnect(true);
         }

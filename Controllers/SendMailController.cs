@@ -30,7 +30,8 @@ namespace KynaShop.Controllers
 
         }
 
-        [HttpPost("send-mail-with-template")]
+        [HttpPost]
+        [Route("sendmail_temp")]
         public async Task<IActionResult> SendEmaiWithTemplate(MailRequest request)
         {
             try

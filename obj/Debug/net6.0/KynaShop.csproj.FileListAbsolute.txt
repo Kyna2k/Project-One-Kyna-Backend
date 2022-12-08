@@ -538,3 +538,6 @@ U:\GitHubProject\kynashop-be\obj\Debug\net6.0\refint\KynaShop.dll
 U:\GitHubProject\kynashop-be\obj\Debug\net6.0\KynaShop.pdb
 U:\GitHubProject\kynashop-be\obj\Debug\net6.0\KynaShop.genruntimeconfig.cache
 U:\GitHubProject\kynashop-be\obj\Debug\net6.0\ref\KynaShop.dll
+U:\GitHubProject\kynashop-be\bin\Debug\net6.0\MailKit.dll
+U:\GitHubProject\kynashop-be\bin\Debug\net6.0\MimeKit.dll
+U:\GitHubProject\kynashop-be\bin\Debug\net6.0\BouncyCastle.Crypto.dll

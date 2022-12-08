@@ -9,6 +9,10 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddControllers().AddJsonOptions(x =>
                 x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles); 
 builder.Services.AddDbContext<KynaShopContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("KynaShop")));
+
+builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
+builder.Services.AddTransient<IMailService, MailService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

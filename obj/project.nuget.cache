@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yKD0jYQPv7ZzgvcdC4iQgqZAuVNZMzqbXH0QPd90KIvAXzcvAAM6F7hSvPGJONdDGewzLkZityanOZUSeRJ3iA==",
+  "dgSpecHash": "dCImkB3N8yFibPpDnrvdhFknI+JsFNvpHpQEoCLv1fgGimeSQNdDMTW65FD110DVi5F675smM7B3ynVYdBfsJA==",
   "success": true,
-  "projectFilePath": "U:\\Project KynaLab Shop\\KynaShop\\KynaShop.csproj",
+  "projectFilePath": "U:\\GitHubProject\\kynashop-be\\KynaShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\huyno\\.nuget\\packages\\cloudinarydotnet\\1.20.0\\cloudinarydotnet.1.20.0.nupkg.sha512",
     "C:\\Users\\huyno\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

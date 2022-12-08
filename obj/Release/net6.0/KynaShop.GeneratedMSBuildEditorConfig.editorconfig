@@ -9,217 +9,217 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KynaShop
 build_property.RootNamespace = KynaShop
-build_property.ProjectDir = U:\Project KynaLab Shop\KynaShop\
+build_property.ProjectDir = U:\GitHubProject\kynashop-be\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = U:\Project KynaLab Shop\KynaShop
+build_property.MSBuildProjectDirectory = U:\GitHubProject\kynashop-be
 build_property._RazorSourceGeneratorDebug = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/ChiTietHoaDons/Create.cshtml]
+[U:/GitHubProject/kynashop-be/Views/ChiTietHoaDons/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldEhvYURvbnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/ChiTietHoaDons/Delete.cshtml]
+[U:/GitHubProject/kynashop-be/Views/ChiTietHoaDons/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldEhvYURvbnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/ChiTietHoaDons/Details.cshtml]
+[U:/GitHubProject/kynashop-be/Views/ChiTietHoaDons/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldEhvYURvbnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/ChiTietHoaDons/Edit.cshtml]
+[U:/GitHubProject/kynashop-be/Views/ChiTietHoaDons/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldEhvYURvbnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/ChiTietHoaDons/Index.cshtml]
+[U:/GitHubProject/kynashop-be/Views/ChiTietHoaDons/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldEhvYURvbnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/Comments/Create.cshtml]
+[U:/GitHubProject/kynashop-be/Views/Comments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/Comments/Delete.cshtml]
+[U:/GitHubProject/kynashop-be/Views/Comments/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/Comments/Details.cshtml]
+[U:/GitHubProject/kynashop-be/Views/Comments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/Comments/Edit.cshtml]
+[U:/GitHubProject/kynashop-be/Views/Comments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/Comments/Index.cshtml]
+[U:/GitHubProject/kynashop-be/Views/Comments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/Hinhs/Create.cshtml]
+[U:/GitHubProject/kynashop-be/Views/Hinhs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGluaHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/Hinhs/Delete.cshtml]
+[U:/GitHubProject/kynashop-be/Views/Hinhs/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGluaHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/Hinhs/Details.cshtml]
+[U:/GitHubProject/kynashop-be/Views/Hinhs/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGluaHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/Hinhs/Edit.cshtml]
+[U:/GitHubProject/kynashop-be/Views/Hinhs/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGluaHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/Hinhs/Index.cshtml]
+[U:/GitHubProject/kynashop-be/Views/Hinhs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGluaHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/HoaDons/Create.cshtml]
+[U:/GitHubProject/kynashop-be/Views/HoaDons/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9hRG9uc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/HoaDons/Delete.cshtml]
+[U:/GitHubProject/kynashop-be/Views/HoaDons/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9hRG9uc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/HoaDons/Details.cshtml]
+[U:/GitHubProject/kynashop-be/Views/HoaDons/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9hRG9uc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/HoaDons/Edit.cshtml]
+[U:/GitHubProject/kynashop-be/Views/HoaDons/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9hRG9uc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/HoaDons/Index.cshtml]
+[U:/GitHubProject/kynashop-be/Views/HoaDons/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9hRG9uc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/Home/Index.cshtml]
+[U:/GitHubProject/kynashop-be/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/Home/Privacy.cshtml]
+[U:/GitHubProject/kynashop-be/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/KhachHangs/Create.cshtml]
+[U:/GitHubProject/kynashop-be/Views/KhachHangs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/KhachHangs/Delete.cshtml]
+[U:/GitHubProject/kynashop-be/Views/KhachHangs/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/KhachHangs/Details.cshtml]
+[U:/GitHubProject/kynashop-be/Views/KhachHangs/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/KhachHangs/Edit.cshtml]
+[U:/GitHubProject/kynashop-be/Views/KhachHangs/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/KhachHangs/Index.cshtml]
+[U:/GitHubProject/kynashop-be/Views/KhachHangs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/KhuyenMais/Create.cshtml]
+[U:/GitHubProject/kynashop-be/Views/KhuyenMais/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2h1eWVuTWFpc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/KhuyenMais/Delete.cshtml]
+[U:/GitHubProject/kynashop-be/Views/KhuyenMais/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2h1eWVuTWFpc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/KhuyenMais/Details.cshtml]
+[U:/GitHubProject/kynashop-be/Views/KhuyenMais/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2h1eWVuTWFpc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/KhuyenMais/Edit.cshtml]
+[U:/GitHubProject/kynashop-be/Views/KhuyenMais/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2h1eWVuTWFpc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/KhuyenMais/Index.cshtml]
+[U:/GitHubProject/kynashop-be/Views/KhuyenMais/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2h1eWVuTWFpc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/NhanVienBanHangs/Create.cshtml]
+[U:/GitHubProject/kynashop-be/Views/NhanVienBanHangs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5CYW5IYW5nc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/NhanVienBanHangs/Delete.cshtml]
+[U:/GitHubProject/kynashop-be/Views/NhanVienBanHangs/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5CYW5IYW5nc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/NhanVienBanHangs/Details.cshtml]
+[U:/GitHubProject/kynashop-be/Views/NhanVienBanHangs/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5CYW5IYW5nc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/NhanVienBanHangs/Edit.cshtml]
+[U:/GitHubProject/kynashop-be/Views/NhanVienBanHangs/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5CYW5IYW5nc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/NhanVienBanHangs/Index.cshtml]
+[U:/GitHubProject/kynashop-be/Views/NhanVienBanHangs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5CYW5IYW5nc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/NhaSanXuats/Create.cshtml]
+[U:/GitHubProject/kynashop-be/Views/NhaSanXuats/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhU2FuWHVhdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/NhaSanXuats/Delete.cshtml]
+[U:/GitHubProject/kynashop-be/Views/NhaSanXuats/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhU2FuWHVhdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/NhaSanXuats/Details.cshtml]
+[U:/GitHubProject/kynashop-be/Views/NhaSanXuats/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhU2FuWHVhdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/NhaSanXuats/Edit.cshtml]
+[U:/GitHubProject/kynashop-be/Views/NhaSanXuats/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhU2FuWHVhdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/NhaSanXuats/Index.cshtml]
+[U:/GitHubProject/kynashop-be/Views/NhaSanXuats/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhU2FuWHVhdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/SanPhams/Create.cshtml]
+[U:/GitHubProject/kynashop-be/Views/SanPhams/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/SanPhams/Delete.cshtml]
+[U:/GitHubProject/kynashop-be/Views/SanPhams/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/SanPhams/Details.cshtml]
+[U:/GitHubProject/kynashop-be/Views/SanPhams/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/SanPhams/Edit.cshtml]
+[U:/GitHubProject/kynashop-be/Views/SanPhams/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/SanPhams/Index.cshtml]
+[U:/GitHubProject/kynashop-be/Views/SanPhams/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/Shared/Error.cshtml]
+[U:/GitHubProject/kynashop-be/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/Shared/_ValidationScriptsPartial.cshtml]
+[U:/GitHubProject/kynashop-be/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/_ViewImports.cshtml]
+[U:/GitHubProject/kynashop-be/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/_ViewStart.cshtml]
+[U:/GitHubProject/kynashop-be/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Project KynaLab Shop/KynaShop/Views/Shared/_Layout.cshtml]
+[U:/GitHubProject/kynashop-be/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-n3yoh8twj5

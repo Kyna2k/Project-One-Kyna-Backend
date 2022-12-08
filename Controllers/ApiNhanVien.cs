@@ -89,6 +89,7 @@ namespace KynaShop.Controllers
             if(hoaDon != null)
             {
                 hoaDon.TrangThai = xuLy.TrangThai;
+                hoaDon.MaNhanVien = xuLy.MaNhanVien;
                 dpHelper.Update(hoaDon);
                 var resul = dpHelper.SaveChanges();
                 if(resul > 0)

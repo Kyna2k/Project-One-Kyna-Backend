@@ -48,7 +48,7 @@ namespace KynaShop.Models
         //send mail with template
         public async Task SendMailWithTemplateAsync(MailRequest mailRequest)
         {
-            string FilePath = Directory.GetCurrentDirectory() + "/Templates/index.html";
+            string FilePath = Directory.GetCurrentDirectory() + "/Templates/huhu.html";
             StreamReader str = new StreamReader(FilePath);
             string MailText = str.ReadToEnd();
             str.Close();

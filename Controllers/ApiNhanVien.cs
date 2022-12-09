@@ -85,16 +85,19 @@ namespace KynaShop.Controllers
         [Route("updateHoaDonXuLy")]
         public async Task<IActionResult> updateHoaDonXuLy(XuLyHoaDonModel xuLy)
         {
+               
             HoaDon hoaDon = dpHelper.HoaDons.SingleOrDefault(p=>p.MaHoaDon== xuLy.MaHoaDon);
+
             if(hoaDon != null)
             {
                 hoaDon.TrangThai = xuLy.TrangThai;
                 hoaDon.MaNhanVien = xuLy.MaNhanVien;
+
                 dpHelper.Update(hoaDon);
                 var resul = dpHelper.SaveChanges();
                 if(resul > 0)
                 {
-                    KhachHang kh = dpHelper.KhachHangs.SingleOrDefault(p => p.MaKhachHang == hoaDon.MaHoaDon);
+                    KhachHang kh = dpHelper.KhachHangs.SingleOrDefault(p => p.MaKhachHang == hoaDon.MaKhachHang);
                     if(kh != null)
                     {
                         MailRequest mailRequest = new MailRequest();
@@ -102,9 +105,14 @@ namespace KynaShop.Controllers
                         mailRequest.FullName = kh.TenKhachHang;
                         switch(xuLy.TrangThai)
                         {
+                           
                             case 2:
                                 mailRequest.Subject = "Kynashop Thông báo đã xác đơn hàng";
                                 mailRequest.Body ="Mã hóa đơn của quý khách là "+ hoaDon.MaHoaDon + ". Vui lòng giữ máy bên mình, sẽ sớm có nhân viên liên hệ với quý khách";
+                                break;
+                            case 3:
+                                mailRequest.Subject = "Cảm ơn quý khách đã mua hàng tại KynaShop";
+                                mailRequest.Body = "Mã hóa đơn của quý khách là " + hoaDon.MaHoaDon + ". Rất mong được tiếp tục đồng hành cùng quý khách";
                                 break;
 
                         }
@@ -135,6 +143,39 @@ namespace KynaShop.Controllers
             dpHelper.Update(nhanVien);
             var result = dpHelper.SaveChanges();
             return Ok(result);
+        }
+        [HttpPost]
+        [Route("HuyDonHang")]
+        public IActionResult HuyDonHang(int MaDonHang,int maNhanVien)
+        {
+            var hoadon =  dpHelper.HoaDons.SingleOrDefault(p => p.MaHoaDon == MaDonHang);
+            hoadon.TrangThai = 255;
+            if(maNhanVien == 0)
+            {
+                hoadon.MaNhanVien = null;
+            }
+            else
+            {
+                hoadon.MaNhanVien = maNhanVien;
+
+            }
+
+            dpHelper.Update(hoadon);
+            var kq1 = dpHelper.SaveChanges();
+
+            if(kq1 > 0)
+            {
+                var list = dpHelper.ChiTietHoaDons.Where(p => p.MaHoaDon == MaDonHang).ToList();
+                for (int i = 0; i < list.Count;i++)
+                {
+                    var sanPham = dpHelper.SanPhams.SingleOrDefault(p => p.MaSanPham == list[i].MaSanPham);
+                    sanPham.SoLuongTrongKho = sanPham.SoLuongTrongKho + list[i].SoLuong;
+                    dpHelper.Update(sanPham);
+                    var kq2 = dpHelper.SaveChanges();
+                    return Ok(kq2);
+                }    
+            }
+            return BadRequest();
         }
     }
 }

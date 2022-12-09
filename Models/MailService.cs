@@ -57,7 +57,7 @@ namespace KynaShop.Models
             var email = new MimeMessage();
             email.Sender = MailboxAddress.Parse("yuhgiabao1809@gmail.com");
             email.To.Add(MailboxAddress.Parse(mailRequest.ToEmail));
-            email.Subject = $"Chúc mừng bạn {mailRequest.FullName} đã đăng ký tài khoản HCMSeries thành công";
+            email.Subject = $"Chúc mừng bạn {mailRequest.FullName} đã mua hàng thành công";
             var builder = new BodyBuilder();
             builder.HtmlBody = MailText;
             email.Body = builder.ToMessageBody();

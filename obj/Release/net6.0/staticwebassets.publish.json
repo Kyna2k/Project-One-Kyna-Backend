@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GkOD1gy3mOJXc1A90W8nHInaJUP5Ixuvb5fEjJ5fbUw=",
+  "Hash": "1XfHZB44+uZ49aEAwOS26ELVymJkrgeGzTt3SDDFQ9A=",
   "Source": "KynaShop",
   "BasePath": "_content/KynaShop",
   "Mode": "Default",
@@ -1086,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "U:\\GitHubProject\\kynashop-be\\wwwroot\\Templates\\huhu.html",
+      "SourceId": "KynaShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "U:\\GitHubProject\\kynashop-be\\wwwroot\\",
+      "BasePath": "_content/KynaShop",
+      "RelativePath": "Templates/huhu.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Templates\\huhu.html"
     }
   ]
 }

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\KynaShop.bundle.scp.css"
     },
     {
+      "Id": "U:\\GitHubProject\\kynashop-be\\wwwroot\\Templates\\huhu.html",
+      "PackagePath": "staticwebassets\\Templates\\huhu.html"
+    },
+    {
       "Id": "U:\\GitHubProject\\kynashop-be\\wwwroot\\css\\dangky.css",
       "PackagePath": "staticwebassets\\css\\dangky.css"
     },

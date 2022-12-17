@@ -31,7 +31,7 @@
                 <th>
                     @Html.DisplayNameFor(model => model.SoLuongTrongKho)
                 </th>
-                <th>
+                <th >
                     @Html.DisplayNameFor(model => model.Mota)
                 </th>
                 <th>
@@ -70,8 +70,11 @@
                     <td>
                         @Html.DisplayFor(modelItem => item.SoLuongTrongKho)
                     </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Mota)
+                    <td >
+                        <div style="overflow-y:scroll;max-height:100px">
+                            @Html.DisplayFor(modelItem => item.Mota)
+
+                        </div>
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.TrangThai)

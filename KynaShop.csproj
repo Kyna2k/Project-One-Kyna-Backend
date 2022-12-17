@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\Templates\MoTaSanPham.html" />
     <None Include="wwwroot\Templates\huhu.html" />
   </ItemGroup>
 

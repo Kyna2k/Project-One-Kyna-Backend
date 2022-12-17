@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4IwyDgTa2YfIbQpiWvcu1EDNp6030gJw5m4qe2ikQWI=",
+  "Hash": "DsnJattdMjxxaCHHfFgwy1BItAWl+s4/5D/+dHLxoNg=",
   "Source": "KynaShop",
   "BasePath": "_content/KynaShop",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Templates\\huhu.html"
+    },
+    {
+      "Identity": "U:\\GitHubProject\\kynashop-be\\wwwroot\\Templates\\MoTaSanPham.html",
+      "SourceId": "KynaShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "U:\\GitHubProject\\kynashop-be\\wwwroot\\",
+      "BasePath": "_content/KynaShop",
+      "RelativePath": "Templates/MoTaSanPham.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Templates\\MoTaSanPham.html"
     }
   ]
 }

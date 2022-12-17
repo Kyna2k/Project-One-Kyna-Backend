@@ -36,12 +36,12 @@ namespace KynaShop.Controllers
             List<HoaDon> hoaDons = new List<HoaDon>();
             if (manhanvien != 0)
             {
-                hoaDons  = dpHelper.HoaDons.Where(p => p.MaNhanVien == manhanvien && p.TrangThai == trangthai).OrderByDescending(p => p.MaHoaDon).Distinct().ToList();
+                hoaDons  = dpHelper.HoaDons.Where(p => p.MaNhanVien == manhanvien && p.TrangThai == trangthai).OrderByDescending(p => p.MaHoaDon).ToList();
 
             }
             else
             {
-                hoaDons = dpHelper.HoaDons.Where(p => p.TrangThai == trangthai && p.MaNhanVien == null).OrderByDescending(p => p.MaHoaDon).Distinct().ToList();
+                hoaDons = dpHelper.HoaDons.Where(p => p.TrangThai == trangthai && p.MaNhanVien == null).OrderByDescending(p => p.MaHoaDon).ToList();
 
             }
 

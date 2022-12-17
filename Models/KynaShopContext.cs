@@ -193,7 +193,7 @@ namespace KynaShop.Models
 
                 entity.ToTable("SanPham");
 
-                entity.Property(e => e.Mota).HasMaxLength(255);
+                entity.Property(e => e.Mota).HasMaxLength(int.MaxValue);
 
                 entity.Property(e => e.TenSanPham).HasMaxLength(50);
 

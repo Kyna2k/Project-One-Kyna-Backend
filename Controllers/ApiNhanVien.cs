@@ -146,7 +146,7 @@ namespace KynaShop.Controllers
         }
         [HttpPost]
         [Route("HuyDonHang")]
-        public IActionResult HuyDonHang(int MaDonHang,int maNhanVien)
+        public async Task<IActionResult> HuyDonHang(int MaDonHang,int maNhanVien)
         {
             var hoadon =  dpHelper.HoaDons.SingleOrDefault(p => p.MaHoaDon == MaDonHang);
             hoadon.TrangThai = 255;
@@ -172,8 +172,17 @@ namespace KynaShop.Controllers
                     sanPham.SoLuongTrongKho = sanPham.SoLuongTrongKho + list[i].SoLuong;
                     dpHelper.Update(sanPham);
                     var kq2 = dpHelper.SaveChanges();
-                    return Ok(kq2);
-                }    
+                    
+                }
+
+                KhachHang kh = dpHelper.KhachHangs.SingleOrDefault(p => p.MaKhachHang == hoadon.MaKhachHang);
+                MailRequest mailRequest = new MailRequest();
+                mailRequest.ToEmail = kh.Email;
+                mailRequest.FullName = kh.TenKhachHang;
+                mailRequest.Subject = "Đơn Hàng đã bị hủy";
+                mailRequest.Body = "Mã hóa đơn của quý khách là " + hoadon.MaHoaDon + ". Rất xin lỗi quý khách, sẽ sớm có bạn nhân viên hệ và hổ trợ";
+                await mailService.SendMailWithTemplateAsync(mailRequest); ;
+                return Ok(1);
             }
             return BadRequest();
         }

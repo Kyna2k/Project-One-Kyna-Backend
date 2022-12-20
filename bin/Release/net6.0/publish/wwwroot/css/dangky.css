@@ -11,12 +11,12 @@
     .login {
     min-height: 100vh;
   }
-  
-  .bg-image {
-    background-image: url('https://images4.alphacoders.com/115/1150571.png');
+
+.bg-image {
+    background-image: url('https://image.thanhnien.vn/w1024/Uploaded/2022/dbeyxqxqrs/2022_12_14/000-333e9cr-5613.jpg');
     background-size: cover;
     background-position: center;
-  }
+}
   
   .login-heading {
     font-weight: 300;

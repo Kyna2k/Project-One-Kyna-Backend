@@ -80,5 +80,24 @@ namespace KynaShop.Controllers
             return Ok(SanPhams);
 
         }
+        [HttpGet]
+        [Route("Search")]
+        public IActionResult Search(String value) {
+            String querySP = "Exec getSanPhamList ";
+            var sanPham = dpHelper.SanPhamApis.FromSqlRaw(querySP).AsEnumerable().ToList();
+            List<SanPhamApi> new_sp = new List<SanPhamApi>();
+            foreach(SanPhamApi sp in sanPham)
+            {
+                if(sp.TenSanPham.ToLower().Contains(value.ToLower()))
+                {
+                    new_sp.Add(sp);
+                }    
+            }    
+            for (int i = 0; i < new_sp.Count; i++)
+            {
+                new_sp[i].hinhs = dpHelper.Hinhs.Where(p => p.MaSanPham == new_sp[i].MaSanPham).ToList();
+            }
+            return Ok(new_sp);
+        }
     }
 }
